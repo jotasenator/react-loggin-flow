@@ -1,0 +1,48 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+/* Navbar.css */
+nav {
+  background-color: #dea7a7;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+
+.app-user span {
+  margin-right: 10px;
+}
+
+.app-user {
+  margin-left: auto;
+}
+
+.error-message {
+  color: red;
+  background: bisque;
+}
+.app-user {
+  color: blueviolet;
+  font-weight: bold;
+}
